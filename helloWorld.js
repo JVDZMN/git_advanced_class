@@ -1,11 +1,6 @@
-const helloWorld = function() {
-  return 'Goodbye world!';
+const helloWorld = function(name) {
+  return `hello ${name}`;
 };
 
-console.log(helloWorld());
+console.log(helloWorld(Javad));
 
-function sayHello(name){
-  console.log(`Hello ${name}`);
-}
-
-console.log(sayHello("Class05"));
