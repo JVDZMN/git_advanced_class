@@ -1,5 +1,5 @@
 const helloWorld = function() {
-  return 'Hello world!';
+  return 'Goodbye world!';
 };
 
 console.log(helloWorld());
